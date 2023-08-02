@@ -2,7 +2,7 @@
 Algorithmes et pseudo-code
 **start**
 
-  if money > 0 end prix > 0
+  if money > 0 and prix > 0
   
   prix = prix + 1
   
