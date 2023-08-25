@@ -1,15 +1,22 @@
 # pseudo-code
 Algorithmes et pseudo-code
-**start**
 
-  if money > 0 and prix > 0
+début Bonbons 
+
+    Si argent > 0 ET prix > 0
   
-  prix = prix + 1
+    Bonbons = 0
   
-  Return bonbons 
+    Tant que argent - prix >= 0
   
-  else money <=0
+    Bonbons ← Bonbons + 1 
   
-  Return 0 bonbons
+    argent ← argent - prix
   
-**end**
+  Fin Tant que 
+  
+  Retourner Bonbons
+  
+  Fin Si
+  
+  Fin Bonbons
